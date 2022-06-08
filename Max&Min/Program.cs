@@ -9,8 +9,7 @@ Console.WriteLine("Введите первое число: ");
 int A = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число: ");
 int B = Convert.ToInt32(Console.ReadLine());
-int max = 0;
-int min = 0;
+int max, min = 0;
 if(A > B)
 {
   max = A;
